@@ -8,9 +8,9 @@ L'application utilise un modèle de Deep Learning basé sur un réseau de neuron
 
 PlantCheck permet de :
 
-🌿 reconnaître l'espèce de la plante à partir d'une image de feuille.;
-🩺 déterminer son état de santé ;
-🔬 identifier une éventuelle maladie ;
+ * 🌿 reconnaître l'espèce de la plante à partir d'une image de feuille.;
+ * 🩺 déterminer son état de santé ;
+ * 🔬 identifier une éventuelle maladie ;
 
 # ⚙️ Installation
 1. Cloner le projet
@@ -19,26 +19,14 @@ PlantCheck permet de :
 3. Installer le frontend
 ````cd frontend````
 ````npm install````
-4. Installer le backend
+4. Installer le backend :   
+   * Revenir à la racine du projet : ````cd ..```` ````cd backend````
+   * Créer un environnement virtuel Python : ````python -m venv api_flask````
+   * Activer l'environnement sous Windows PowerShell : ````.\api_flask\Scripts\Activate.ps1````
+   * Installer les dépendances : ````pip install -r requirements.txt````
 
-Revenir à la racine du projet :
 
-````cd ..````
-````cd backend````
-
-Créer un environnement virtuel Python :
-
-````python -m venv api_flask````
-
-Activer l'environnement sous Windows PowerShell :
-
-````.\api_flask\Scripts\Activate.ps1````
-
-Installer les dépendances :
-
-````pip install -r requirements.txt````
-
-🚀 Lancement de l'application
+# 🚀 Lancement de l'application
 
 ## Backend
 
@@ -88,17 +76,17 @@ Ouvrir l'application dans un navigateur à l'adresse fournie par Vite, général
 
 # 🛠️ Technologies utilisées
 ## Frontend
-React
-Vite
-JavaScript
-HTML
-CSS
+* React
+* Vite
+* JavaScript
+* HTML
+* CSS
 
 ## Backend
-Python
-Flask
-Flask-CORS
-TensorFlow
-Keras
-NumPy
-Pillow
+* Python
+* Flask
+* Flask-CORS
+* TensorFlow
+* Keras
+* NumPy
+* Pillow
